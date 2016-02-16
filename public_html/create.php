@@ -11,17 +11,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        <link rel="stylesheet" href="../resource/css/bootstrap.min.css">
+        <link rel="stylesheet" href="views/resource/css/bootstrap.min.css">
         <style>
             body {
                 padding-top: 50px;
                 padding-bottom: 20px;
             }
         </style>
-        <link rel="stylesheet" href="../resource/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="../resource/css/main.css">
+        <link rel="stylesheet" href="views/resource/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="views/resource/css/main.css">
 
-        <script src="../resource/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="views/resource/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -120,29 +120,11 @@
             <footer class="text-center">
                 <p>&copy; Owes Shubho 2015</p>
             </footer>
-        </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
-        <script>window.jQuery || document.write('<script src="../resource/js/vendor/jquery-1.11.2.js"><\/script>')</script>
-
-        <script src="../resource/js/vendor/bootstrap.min.js"></script>
-
-        <script src="../resource/js/main.js"></script>
-
+        </div> <!-- /container -->
+        
+        <script src="views/resource/js/vendor/bootstrap.min.js"></script>
+        <script src="views/resource/js/main.js"></script>
+        <script src="views/resource/js/vendor/jquery-1.11.2.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function (b, o, i, l, e, r) {
-                b.GoogleAnalyticsObject = l;
-                b[l] || (b[l] =
-                        function () {
-                            (b[l].q = b[l].q || []).push(arguments)
-                        });
-                b[l].l = +new Date;
-                e = o.createElement(i);
-                r = o.getElementsByTagName(i)[0];
-                e.src = '//www.google-analytics.com/analytics.js';
-                r.parentNode.insertBefore(e, r)
-            }(window, document, 'script', 'ga'));
-            ga('create', 'UA-XXXXX-X', 'auto');
-            ga('send', 'pageview');
-        </script>
     </body>
 </html>

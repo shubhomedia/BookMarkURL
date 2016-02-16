@@ -11,9 +11,9 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-            include_once("../../../vendor/autoload.php");
-            use App\Bitm\SEIP106508\Url\Bookmark;
-            use App\Bitm\SEIP106508\Utility\Utility;
+            include_once("./vendor/autoload.php");
+            use App\Url\Bookmark;
+            use App\Utility\Utility;
             
             $newbookmark = new Bookmark();
             $newbookmark->title = $_POST['title'];
