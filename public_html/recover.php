@@ -1,11 +1,12 @@
 <?php
 
-    include_once("../../../vendor/autoload.php");
-
+    include_once("./vendor/autoload.php");
     //      session_start();
-    use App\Bitm\SEIP106508\Url\Bookmark;
-    use App\Bitm\SEIP106508\Utility\Utility;
 
+
+        use App\Url\Bookmark;
+        use App\Utility\Utility;
+        
     $bookmark = new Bookmark();
     $bookmark->recover($_REQUEST['id']);
 ?>
