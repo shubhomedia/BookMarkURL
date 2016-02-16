@@ -1,10 +1,10 @@
 <?php
 
-    include_once("../../../vendor/autoload.php");
+    include_once("./vendor/autoload.php");
 
-    use App\Bitm\SEIP106508\Url\Bookmark;
-    use App\Bitm\SEIP106508\Utility\Utility;
-
+    use App\Url\Bookmark;
+    use App\Utility\Utility;
+        
     $bookmark = new Bookmark();
     $bookmark->id = $_POST['id'];
     $bookmark->title = $_POST['title'];
